@@ -24,9 +24,9 @@ public class CustomerUser {
         return element.getText();
     }
 
-    public void changesFiled(SelenideElement element,String newValue){
+    public void changesFiled(SelenideElement element,String i){
         element.clear();
-        element.sendKeys(newValue);
+        element.sendKeys(i);
     }
     void waitSelector(SelenideElement element){
         element.shouldBe(enabled);
@@ -42,12 +42,15 @@ public class CustomerUser {
     public void renameTest(String newFirstName,String newLastName,String newEmail){
         clickButton(buttonCustomer);
         waitSelector(findFirstName);
+        System.out.println("1");
+        findFirstName.clear();
+        System.out.println("2");
+        findFirstName.sendKeys(newFirstName);
         changesFiled(findFirstName,newFirstName);
         changesFiled(findLastName,newLastName);
         changesFiled(findEmail,newEmail);
         clickButton(buttonSave);
-        assertFiled(newFirstName,newLastName,newLastName);
+        assertFiled(newFirstName,newLastName,newEmail);
 
-
-    }
+    }//разобраться с зависимостями ыввапке исм 
 }

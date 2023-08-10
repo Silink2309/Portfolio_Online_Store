@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class LoginTest {
     @ParameterizedTest
     @CsvSource({
-            "wwwoI@gmail.com,11111111,1",
+            "wwwojkI@gmail.com,11111111,1",
     })
     @Test
     public void loginTest(String login,String password,int remember){
