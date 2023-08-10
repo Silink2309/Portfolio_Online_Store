@@ -1,4 +1,5 @@
 import Sections.SearchStore;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -15,6 +16,7 @@ public class SearchTest {
 
     })
     @Test
+    @DisplayName("Поиск товара по названию ")
     public void testSearch(String searchText){
         SearchStore objSearchStore = open(Url.url,SearchStore.class);
         objSearchStore.searchTest(searchText);
