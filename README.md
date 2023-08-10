@@ -1,9 +1,10 @@
 # Portfolio_Online_Store
-Добро пожаловать в репозиторий тестов интернет-магазина!
+### Добро пожаловать в репозиторий тестов интернет-магазина!
 
 ## Описание проекта
 
 Этот проект представляет собой набор автоматизированных тестов для проверки функциональности интернет-магазина с использованием фреймворка Junit5, системы управления зависимостями Maven, инструментария Selenide, отчета Allure и системы контроля версий GitHub. Проект разработан с использованием интегрированной среды разработки IntelliJ IDEA.
+#  Технологии и инструменты
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 ## Как начать работу с проектом
 
@@ -36,11 +37,11 @@
 
 ## Дополнительные ресурсы
 
-- Официальный сайт Junit - ознакомьтесь с документацией и руководствами по использованию Junit.
-- Официальный сайт Maven - получите дополнительную информацию о Maven и его возможностях.
-- Официальный сайт Selenide - найдите подробную документацию и примеры использования Selenide.
-- Официальный сайт Allure - узнайте больше о генерации отчетов Allure.
-- Официальный сайт GitHub - получите дополнительную информацию о системе контроля версий Git и возможностях GitHub.
+- Официальный сайт [Junit](https://junit.org/junit5/docs/current/user-guide/) - ознакомьтесь с документацией и руководствами по использованию Junit.
+- Официальный сайт [Maven](https://maven.apache.org/users/index.html) - получите дополнительную информацию о Maven и его возможностях.
+- Официальный сайт [Selenide](https://ru.selenide.org/quick-start.html) - найдите подробную документацию и примеры использования Selenide.
+- Официальный сайт [Allure](https://www.allure.com/) - узнайте больше о генерации отчетов Allure.
+- Официальный сайт [GitHub](https://github.com/) - получите дополнительную информацию о системе контроля версий Git и возможностях GitHub.
 
 
 # Реализованные кейсы
@@ -50,3 +51,4 @@
 4) Переходы между блоками 
 5) Проверка поискового поля на вывод валидных результатов  
 
+# 
